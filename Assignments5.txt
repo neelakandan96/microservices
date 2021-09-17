@@ -1,0 +1,27 @@
+#1. From Servlet send list of values to a JSP
+#2. WHat is Functional & Non Functional requirements(performance, security, ) difference
+#3. List different types of Testings - brief each Testing
+
+Which SOLID principle is most important, as per your analysis?
+
+EmployeeService es = new EmployeeService(new EmployeeRepositoryMySQL()); 
+
+class EmployeeService{
+//EmployeeRepository eRepo = new EmployeeRepository();
+IEmployeeRepository irepo
+EmployeeService(IEmployeeRepository irepo){
+}
+//all other methods invoking irepo methods
+}
+
+interface IEmployeeRepository{
+
+}
+
+class EmployeeRepositoryMySQL implements IEmployeeRepository{
+List<Employee> getEMployees(){}
+
+Employee updateEMployee(){}
+
+
+}
